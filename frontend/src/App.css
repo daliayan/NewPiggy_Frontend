@@ -1,0 +1,192 @@
+.App {
+  background-color: rgb(246, 214, 230);
+  cursor: pointer; 
+}
+
+.header-line{
+  text-align: center;
+  font-size: 30px;
+  padding: 5px; 
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-bar {
+  text-align: center;
+  background-color: rgb(255, 111, 168);
+  padding: 3px; 
+  width: 100%;
+}
+
+.nav-bar a{
+  color: #000000;
+  text-decoration: none;
+  font-size: 15px;
+  margin: 5px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.about-page{
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 5px;
+}
+
+.bio-page{
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 5px;
+}
+
+.squid-game{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+} 
+
+.bank-container{
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 3px;
+  background-color: rgb(246, 214, 230);
+}
+
+.bank-list-data{
+  text-align: center;
+  font-size: 18px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.delete-button{
+  background-color: #fafafa; 
+  margin: 4px 10px;
+  font-size: 10px;
+}
+
+.piggy-bank-form{
+  display: inline-block;
+  padding: 10px;
+  background-color: rgb(255, 111, 168);
+  text-align: center;
+  width: 100%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.piggy-bank-form-dropdown{
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.piggy-bank-form-text{
+  padding: 5px 5px;
+  font-size: 16px;
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.pig-container{
+  position: relative;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.piggy-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+} 
+
+.pig-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form-button{
+  background-color: rgb(121, 8, 64);
+  color: white;
+  font-size: 16px;
+  padding: 10px 15px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0 auto;
+  margin-bottom: 12px;
+  display: flex;
+}
+
+.fund-container{
+  display: inline-block;
+  margin: 15px;
+  padding: 5px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fund-text{
+  font-size: 22px;
+}
+
+.photo{
+  position: relative;
+  max-width: 69px;
+  float: left;
+  padding: 20px; 
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.photo img{
+  width: 100%;
+  height: auto;
+}
+
+.photo .btn-mon{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgb(17, 140, 79);
+  color: white;
+  font-size: 16px;
+  padding: 16px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.photo .btn-mon:hover{
+  background-color: rgb(87, 255, 45);
+}
+
+.orderedList{
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 3px;
+}
+
+.liker-funct{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+.adder-funct{
+  text-align: center;
+  font-size: 30px;
+  padding: 5px; 
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
